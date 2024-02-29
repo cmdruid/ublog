@@ -67,7 +67,7 @@ const UserBox: FC<UserBoxProps> = ({ npub }) => {
     <div className="rounded-box overflow-hidden my-4">
       {banner ? (
         <img
-          className="min-h-[8rem] h-auto max-h-[24rem] w-full object-cover"
+          className="min-h-[8rem] h-auto max-h-[12rem] w-full object-cover"
           src={banner}
           alt=""
         />
