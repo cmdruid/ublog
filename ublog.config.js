@@ -1,11 +1,12 @@
 module.exports = {
-  title: "uBlog",
+  title: "proof0.work",
   description:
-    "A minimalist blog on nostr that allows anyone to easily create their own personal micro-blog.",
+    "Just another micro-blog drifting through cyber space.",
   favicon:
-    "https://upload.wikimedia.org/wikipedia/commons/0/0b/Greek_lc_mu.svg",
-  logo: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Greek_lc_mu.svg",
-  npub: "npub1hk08saqjqxj0u98vjyeh8rd7n3828wh60wsf74nwkjexwlg22x6q4acuqq",
+    "https://files.catbox.moe/1ulr8t.webp",
+  logo: "https://files.catbox.moe/1ulr8t.webp",
+  npub: "npub1gg5uy8cpqx4u8wj9yvlpwm5ht757vudmrzn8y27lwunt5f2ytlusklulq3",
+  default_theme : "light",
   themes: [
     "light",
     "dark",
@@ -53,8 +54,8 @@ module.exports = {
     },
   ],
   relays: [
-    "wss://relay.snort.social",
-    "wss://nostr-pub.wellorder.net",
+    // "wss://relay.snort.social",
+    //"wss://nostr-pub.wellorder.net",
     "wss://relay.damus.io",
     "wss://nos.lol",
     "wss://nostr.wine",
